@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="impuestos.css" />
+    <title>Calculadora de impuestos de ventas</title>
+ </head>
+ <body>
+   <h1>CALCULADORA DE IMPUESTOS DE VENTAS</h1>
+   <form>
+     <i>Ingrese el subtotal y el porcentaje de impuesto para calcular el total:</i>
+     <input type="text" id="subtotal" placeholder="Subtotal">
+     <input type="text" id="porcentaje" placeholder="Porcentaje de Impuesto">
+     <input type="button" value="Calcular" onclick="calcular()">
+     <br>
+     <p id="tot">El total con impuesto es:</p>
+     <input type="text" id="resultado" readonly disabled="disabled"">
+    </form>
+  </body>
+  <script src="impuestos.js"></script>
+</html>
